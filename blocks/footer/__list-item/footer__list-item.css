@@ -1,0 +1,19 @@
+.footer__list-item{
+    display: inline;
+    margin-right: 10px;
+    transition: all 0.3s ease-in;
+    font-family: 'Inter',Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 41px;
+}
+.footer__list-item:hover{
+    opacity: 0.7;
+    transition: all 0.3s ease-in;
+}
+@media screen and (min-width: 376px) and (max-width: 768px){
+    .footer__list-item{
+        font-size: 1rem;
+    }
+}

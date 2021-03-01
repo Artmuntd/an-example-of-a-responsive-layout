@@ -1,0 +1,16 @@
+.footer__navigator{
+    display: flex;
+}
+@media screen and (min-width: 376 px) and (max-width: 768px){
+    .footer__navigator{
+        width: 70%;
+
+    }
+
+}
+@media screen and (min-width: 320px) and (max-width: 375px) {
+    .footer__navigator{
+        text-align: left;
+        align-items: flex-start;
+    }
+}

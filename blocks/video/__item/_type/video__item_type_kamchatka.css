@@ -1,0 +1,8 @@
+.video__item_type_kamchatka{
+    /* background-image: url("../../../../images/video1.png"); */
+
+    background: url(../../../../images/video1.png) 100% 100% no-repeat; /* Добавляем фон */
+    background-size: cover;
+    height: 323px;
+
+}
